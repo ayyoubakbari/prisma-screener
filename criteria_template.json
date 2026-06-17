@@ -1,0 +1,29 @@
+{
+  "_comment": "PRISMA Screener — Criteria file. Set 'mode' to 'pico' or 'custom'.",
+
+  "mode": "pico",
+
+  "pico": {
+    "population":   "Describe your target population here",
+    "intervention": "Describe the intervention or exposure here",
+    "comparison":   "Describe the comparator or control here (leave blank if N/A)",
+    "outcome":      "Describe the primary and secondary outcomes here"
+  },
+
+  "custom": {
+    "inclusion": [
+      "Add inclusion criterion 1 here",
+      "Add inclusion criterion 2 here"
+    ],
+    "exclusion": [
+      "Add exclusion criterion 1 here",
+      "Add exclusion criterion 2 here"
+    ]
+  },
+
+  "study_designs": ["RCT", "cohort study", "systematic review"],
+
+  "language": "English",
+
+  "date_range": "2010-2024"
+}

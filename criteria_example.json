@@ -1,0 +1,31 @@
+{
+  "_comment": "Example criteria for a review on plasma wave instabilities in engineering systems",
+
+  "mode": "pico",
+
+  "pico": {
+    "population":   "Engineering and physics systems exhibiting plasma or electromagnetic wave phenomena",
+    "intervention": "Analytical, numerical, or experimental methods for studying wave instabilities",
+    "comparison":   "Classical vs. quantum or linear vs. nonlinear treatment (where applicable)",
+    "outcome":      "Growth rates, dispersion relations, stability thresholds, or experimental validation"
+  },
+
+  "custom": {
+    "inclusion": [
+      "Peer-reviewed journal articles or conference proceedings",
+      "Studies providing quantitative results or theoretical derivations",
+      "Works addressing wave propagation, instability, or turbulence in plasma or similar media"
+    ],
+    "exclusion": [
+      "Pure review or opinion articles without new results",
+      "Studies focused exclusively on astrophysical plasmas with no engineering relevance",
+      "Conference abstracts without full-text availability"
+    ]
+  },
+
+  "study_designs": ["theoretical study", "numerical simulation", "experimental study", "review"],
+
+  "language": "English",
+
+  "date_range": "2005-2024"
+}
