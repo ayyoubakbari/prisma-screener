@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Outputs (don't commit results)
+screened_*.csv
+*_summary.txt
+
+# Keep examples
+!examples/sample_abstracts.csv
+
+# API keys — never commit these
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
